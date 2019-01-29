@@ -28,6 +28,8 @@ public class HangmanUserInteface {
             } else if (command.length() == 1) {
                 hangman.guess(command);
             }
+            hangman.printMan();
+            hangman.printWord();
         }
 
 
