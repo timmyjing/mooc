@@ -12,6 +12,6 @@ public class Adder {
         System.out.print("Type another number: ");
         int b = Integer.parseInt(reader.nextLine());
         System.out.println("");
-        System.out.println("Sum of the numbers: " + (a * b));
+        System.out.println("Sum of the numbers: " + (a + b));
     }
 }
