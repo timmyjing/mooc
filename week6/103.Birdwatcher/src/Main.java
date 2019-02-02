@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {  
 
     public static void main(String[] args) {
@@ -6,7 +8,10 @@ public class Main {
         
     // Your program should use only one Scanner object, i.e., it is allowed to call 
     // new Scanner only once. If you need scanner in multiple places, you can pass it as parameter
-            
+        Scanner reader = new Scanner(System.in);
+        BirdDatabase database = new BirdDatabase(reader);
+        database.run();
+        
     }
 
 }
