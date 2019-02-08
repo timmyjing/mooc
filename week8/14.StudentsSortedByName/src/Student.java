@@ -1,4 +1,4 @@
-public class Student {
+public class Student implements Comparable<Student>{
 
     private String name;
 
@@ -15,4 +15,7 @@ public class Student {
         return name;
     }
 
+    public int compareTo(Student other) {
+        return name.compareToIgnoreCase(other.name);
+    }
 }
