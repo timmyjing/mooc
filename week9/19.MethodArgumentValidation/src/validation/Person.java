@@ -6,7 +6,7 @@ public class Person {
     private int age;
 
     public Person(String name, int age) {
-        if (name == null) throw new NullPointerException("No name provided");
+//        if (name == null) throw new NullPointerException("No name provided");
         if (name == null || name.isEmpty() || name.length() > 40) {
             throw new IllegalArgumentException("Invalid name");
         }
